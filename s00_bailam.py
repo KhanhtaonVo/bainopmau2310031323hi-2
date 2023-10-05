@@ -12,4 +12,4 @@ Hi!
 
 def hi():
   # print('Hi !')
-  return 'Hi !'
+  return 'Hi'
