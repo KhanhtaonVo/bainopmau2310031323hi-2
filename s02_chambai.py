@@ -2,13 +2,13 @@ def chambai():
   INP_name = 'AI BTX'
   
   from s01_dapan import hi
-  EXPECTED_result = hi(INP_name)
+  r_DAPAN = hi()  # aka result_of_DAPAN
 
   try:
     from s00_bailam import hi
-    ACTUAL_result = hi(INP_name)
+    r_THISINH = hi()  # aka result_of_THISINH
   except:
-    ACTUAL_result = None
+    r_THISINH = None
 
-  chambai_r = 1 if ACTUAL_result == EXPECTED_result else 0
+  chambai_r = int(r_THISINH == r_DAPAN)
   return chambai_r

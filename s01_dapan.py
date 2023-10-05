@@ -1,18 +1,15 @@
 """
-debai 
+--- debai 
 Viet python ham hi()
-Nhap vao ten :name va trave cau chao 'Hi {name}!'
+Tra ve cau chao 'Hi!'
 
-input 
-name='some name'
+--- input 
+(ko co)
 
-output 
-Hi some name!
+--- output 
+Hi!
 """
 
-def hi(name):
-  return f'Hi {name}!'
-
-if __name__=='__main__':
-  name = 'AI BTX'
-  print(hi(name))
+def hi():
+  # print('Hi !')
+  return 'Hi !'
